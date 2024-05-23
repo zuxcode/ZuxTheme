@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA,KACE,wDAA+C","sources":["webpack://zux-theme/./src/scss/main.scss"],"sourcesContent":["body {\r\n  background-image: url(../images/screenshot.png);\r\n}\r\n"],"names":[],"sourceRoot":""}
