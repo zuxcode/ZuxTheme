@@ -1,4 +1,5 @@
-body{background-image:url(./img/screenshot.png)}
+@import url(https://fonts.cdnfonts.com/css/georgia-2);
+*,*::after,*::before{margin:0;line-height:1.15;-webkit-text-size-adjust:100%}main{display:block}:root{--primary-color: #39e09b;--white-color: #ffffff;--black-color: #000000}body{width:100svw;height:100svh;background-color:var(--white-color)}.site-branding{display:flex}h1{font-family:"Georgia", sans-serif;font-size:24px}h2,h3,h4,h5,h6{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 
 
 /*# sourceMappingURL=main.css.map*/

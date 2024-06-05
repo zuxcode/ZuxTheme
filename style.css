@@ -1,26 +1,28 @@
 /*!
-Theme Name: ZuxTheme
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: zuxtheme
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ * Theme Name:        ZuxTheme
+ * Theme URI:         https://x.com/@ZuxTheme
+ * Description:       ZuxTheme is a premium WordPress theme designed to empower agencies and businesses to showcase their creativity and expertise.
+ * Version:           1.0.0
+ * Author:            Alfred Chigozie Nwanokwai
+ * Author URI:        https://x.com/@ZuxTheme
+ * Tags:              block-patterns, full-site-editing, portfolio
+ * Text Domain:       zuxtheme
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * 
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned.
+ 
+ * ZuxTheme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+ * Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-ZuxTheme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+ */
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:

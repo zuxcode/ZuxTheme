@@ -1,3 +1,7 @@
 {
-  "recommendations": ["tungvn.wordpress-snippet"]
+  "recommendations": [
+    "tungvn.wordpress-snippet",
+    "wongjn.php-sniffer",
+    "devsense.phptools-vscode"
+  ]
 }

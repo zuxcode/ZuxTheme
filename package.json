@@ -21,7 +21,7 @@
     "clean": " rimraf assets",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
-    "watch": "webpack --progress --watch --mode development"
+    "watch": "webpack --progress --watch --mode production"
   },
   "dependencies": {},
   "devDependencies": {

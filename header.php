@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
@@ -26,8 +27,36 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'zuxtheme' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+		<!-- <div class="site-branding"> -->
+			<!-- Social Menu : Primary Menu-->
 			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'topbar_menu',
+					'menu_id' => 'topbar-menu-',
+					'menu_class' => 'topbar-menu',
+				)
+			);
+			?>
+		
+		<!-- </div>.site-branding -->
+
+		<nav id="site-navigation" class="main-navigation">
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'zuxtheme' ); ?></button> -->
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'main_menu',
+					'menu_id'        => 'main_menu',
+					'menu_class'        => 'main_menu',
+				)
+			);
+			?>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+<!-- 
+
+	<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
@@ -43,17 +72,4 @@
 				?>
 				<p class="site-description"><?php echo $zuxtheme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'zuxtheme' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+ -->

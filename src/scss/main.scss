@@ -1,3 +1,4 @@
-body {
-  background-image: url(../images/screenshot.png);
-}
+@import "components/config";
+@import "components/_layout";
+@import "components/nav";
+@import "components/typography";

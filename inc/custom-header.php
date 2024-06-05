@@ -22,7 +22,7 @@ function zuxtheme_custom_header_setup() {
 		apply_filters(
 			'zuxtheme_custom_header_args',
 			array(
-				'default-image'      => '',
+				'default-image'      => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH5SsVGY7Z-lqECRLTZXh59dJZArTBC6axeQ&s',
 				'default-text-color' => '000000',
 				'width'              => 1000,
 				'height'             => 250,
